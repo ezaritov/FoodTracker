@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		274122E91E10B8BC009B0E67 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274122E81E10B8BC009B0E67 /* RatingControl.swift */; };
+		274122EB1E119CD8009B0E67 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274122EA1E119CD8009B0E67 /* Meal.swift */; };
 		936B4B821DB54E8F0090E3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B4B811DB54E8F0090E3EE /* AppDelegate.swift */; };
 		936B4B841DB54E8F0090E3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B4B831DB54E8F0090E3EE /* ViewController.swift */; };
 		936B4B871DB54E8F0090E3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936B4B851DB54E8F0090E3EE /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		274122E81E10B8BC009B0E67 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		274122EA1E119CD8009B0E67 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		936B4B7E1DB54E8F0090E3EE /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936B4B811DB54E8F0090E3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		936B4B831DB54E8F0090E3EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				274122E81E10B8BC009B0E67 /* RatingControl.swift */,
 				936B4B851DB54E8F0090E3EE /* Main.storyboard */,
 				936B4B881DB54E8F0090E3EE /* Assets.xcassets */,
+				274122EA1E119CD8009B0E67 /* Meal.swift */,
 				936B4B8A1DB54E8F0090E3EE /* LaunchScreen.storyboard */,
 				936B4B8D1DB54E8F0090E3EE /* Info.plist */,
 			);
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				936B4B841DB54E8F0090E3EE /* ViewController.swift in Sources */,
+				274122EB1E119CD8009B0E67 /* Meal.swift in Sources */,
 				274122E91E10B8BC009B0E67 /* RatingControl.swift in Sources */,
 				936B4B821DB54E8F0090E3EE /* AppDelegate.swift in Sources */,
 			);
