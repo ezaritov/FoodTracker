@@ -19,4 +19,5 @@ class RatingControl: UIStackView {
         super.init(coder: coder)
     }
 
+    //MARK: Test
 }
