@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mCb-Rx-GdF" id="3oB-od-Zlk">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="5S2-EH-1ei">
@@ -48,6 +48,7 @@
                                     <outlet property="nameLabel" destination="fLq-Fm-G4X" id="MWe-y5-UH0"/>
                                     <outlet property="photoImageView" destination="5S2-EH-1ei" id="TdZ-rd-uPf"/>
                                     <outlet property="ratingControl" destination="GPV-09-1Qg" id="EJg-Wq-QjS"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="ts6-vl-RTq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -181,10 +182,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Itb-P2-uUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079.2" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1188" y="504"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ts6-vl-RTq"/>
+    </inferredMetricsTieBreakers>
 </document>
